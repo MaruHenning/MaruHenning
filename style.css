@@ -4,6 +4,7 @@ body, *, *:before, *:after {
 
 body {
     background-color: #f0f3f2d9;
+    font-family: economica, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6, .title {
@@ -62,81 +63,81 @@ p {
     }
 
 .fixed-width img {
-        border-radius: 2%;
-        height: 64px;
-        margin-top: 1%;
-        margin-left: 3%;
-    }
+    border-radius: 2%;
+    height: 64px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
 
-    .page-header nav {
-        font-family: "Economica", sans-serif;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-left: 4.5%;
-        padding: 0%;
-        margin-bottom: 0.5%;
-    }
+.page-header nav {
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 4.5%;
+    padding: 0%;
+    margin-bottom: 0.5%;
+}
 
-    .page-header nav li {
-        color: #5b6160;
-        font-size: 1.4em;
-        margin-left: 1rem;
-        display: inline-block;
-    }
+.page-header nav li {
+    color: #5b6160;
+    font-size: 1.4em;
+    margin-left: 1rem;
+    display: inline-block;
+}
 
 /*Profile*/
-    .section1 img {
+.section1 img {
     border-radius: 10px;
     height: 410px;
     padding: 0%;
     float: left;
     margin-right: 3%;
-    }
+}
 
-    .profile {
-        text-align: center;
-        font-family: "Economica", sans-serif;
-        font-size: 30px;
-        color: #5b6160;
-        margin-bottom: 2%;
-        background-color: #f0f3f2d9;
-        display: inline;
-        padding: 0.8em;
-    }
+.profile {
+    text-align: center;
+    font-family: "Economica", sans-serif;
+    font-size: 30px;
+    color: #5b6160;
+    margin-bottom: 2%;
+    background-color: #f0f3f2d9;
+    display: inline;
+    padding: 0.8em;
+}
     
-      .about-me {
-        margin-top: 6%;
-        font-family:"Economica", sans-serif;
-        font-size: 30px;
-        color: #c999af;
-        margin-bottom: 3%;
-      }
+.about-me {
+    margin-top: 6%;
+    font-family:"Economica", sans-serif;
+    font-size: 30px;
+    color: #c999af;
+    margin-bottom: 3%;
+}
 
-    .section1 p {
-        font-family: "Economica", sans-serif;
-        font-size: x-large;
-        color: #c999af;
-        text-align: justify;
-    }
+.section1 p {
+    font-family: "Economica", sans-serif;
+    font-size: x-large;
+    color: #c999af;
+    text-align: justify;
+}
 
-    .section1 {
-        position: relative;
-    }
-    .section1::before {
-        content: "";
-        display: block;
-        height: 30px;
-        background: url(images/back.png);
-        margin-bottom: 2em;
-        margin-top: 2%;
-    }
-    .section1 .titulo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+.section1 {
+    position: relative;
+}
+.section1::before {
+    content: "";
+    display: block;
+    height: 30px;
+    background: url(images/back.png);
+    margin-bottom: 2em;
+    margin-top: 2%;
+}
+.section1 .titulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 
 /*Education*/
 .education {
@@ -277,34 +278,34 @@ p {
     display: inline;
     padding: 0.99em;
 }
-    .section4 {
-        position: relative;
-    }
-    .section4::before {
-        content: "";
-        display: block;
-        height: 30px;
-        background: url(images/back.png);
-        margin-bottom: 2em;
-        margin-top: 3%;
-    }
-    .section4 .titulo4 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
+.section4 {
+    position: relative;
+}
+.section4::before {
+    content: "";
+    display: block;
+    height: 30px;
+    background: url(images/back.png);
+    margin-bottom: 2em;
+    margin-top: 3%;
+}
+.section4 .titulo4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 
-    .column-list {
-        columns: 2;
-        column-gap: 0px;
-        color: #c999af;
-        font-family: "Economica", sans-serif;
-        font-size: 26px;
-        padding-left: 5%;
-        text-align: center;
-      }
+.column-list {
+    columns: 2;
+    column-gap: 0px;
+    color: #c999af;
+    font-family: "Economica", sans-serif;
+    font-size: 26px;
+    padding-left: 5%;
+    text-align: center;
+}
 
 .imgskills img{
     width: 860px;
@@ -325,7 +326,7 @@ p {
     font-size: 1em;
     height: 50px;
     font-family: "Economica", sans-serif;
-    }
+}
     .page-footer .credits {
         float: right;
     }
@@ -347,9 +348,9 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px; 
     resize: vertical 
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #D3DBD9;
     font-family: "Economica", sans-serif;
     color: #5b6160;
@@ -358,14 +359,14 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     font-size: 20px;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #9cafaa;
     font-family: "Economica", sans-serif;
-  }
+}
   
-  .container {
+.container {
     border-radius: 5px;
     background-color: #f0f3f2d9;
     color: #c999af;
@@ -377,7 +378,7 @@ input[type=text], select, textarea {
     font-size: 27px;
     margin-top: 1%;
     margin-bottom: 1%;
-  }
+}
 
 .contacto {
     text-align: center;
@@ -449,28 +450,28 @@ input[type=text], select, textarea {
     margin: 0 auto;
     margin-bottom: 10%;
     border-radius: 1%;
-  }
+}
 
-  #countdown div {
+#countdown div {
     display: inline-block;
     margin: 0 5px;
-  }
+}
   
-  #countdown span {
+#countdown span {
     display: inline-block;
     font-size: 40px;
     font-weight: bold;
     margin: 0 5px;
-  }
+}
   
-  #arrow-container {
+#arrow-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-  }
+}
   
-  #top-arrow {
+#top-arrow {
     display: block;
     width: 50px;
     height: 50px;
@@ -480,16 +481,16 @@ input[type=text], select, textarea {
     text-align: center;
     line-height: 50px;
     transition: background-color 0.3s ease;
-  }
+}
   
-  #top-arrow:hover {
+#top-arrow:hover {
     background-color: #9cafaa;
-  }
+}
   
-  .fa-arrow-up {
+.fa-arrow-up {
     font-size: 30px;
     color: #c999af;
-  }
+}
   
   
 

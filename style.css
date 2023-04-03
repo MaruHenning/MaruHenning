@@ -264,7 +264,7 @@ p {
 
 .table img {
     width: 50%;
-    height: fit-content;
+    height: auto;
     margin-top: 12%;
     margin-left: 0%;
 }

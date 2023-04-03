@@ -311,7 +311,7 @@ p {
 
 .imgskills img{
     width: 860px;
-    height: max-content;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
